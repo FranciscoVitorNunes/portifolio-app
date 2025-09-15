@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, Linking, Pressable, StyleSheet } from "react-native";
+import { styles } from './ProfileStyles';
 
 type Link = {
   label: string;
@@ -18,11 +19,3 @@ export default function ProfileLinks({ links }: { links: Link[] }) {
   );
 }
 
-const styles = StyleSheet.create({
-  link: {
-    fontSize: 16,
-    color: "blue",
-    textDecorationLine: "underline",
-    marginBottom: 8,
-  },
-});

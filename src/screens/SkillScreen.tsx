@@ -6,10 +6,10 @@ import SkillTree from "../components/SkillTree";
 
 export default function SkillScreen() {
   const skills = [
-    { skill: "React Native", level: "Avançado" },
     { skill: "TypeScript", level: "Intermediário" },
     { skill: "Node.js", level: "Intermediário" },
     { skill: "Python", level: "Básico" },
+    { skill: "React Native", level: "Básico" },
   ];
 
   return (

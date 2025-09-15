@@ -6,9 +6,9 @@ import ProfileLinks from "../components/ProfileLinks";
 
 export default function MainScreen({ navigation }: any) {
   const links = [
-    { label: "LinkedIn", url: "https://linkedin.com/in/seu-perfil" },
-    { label: "GitHub", url: "https://github.com/seu-usuario" },
-    { label: "Email", url: "mailto:seuemail@gmail.com" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/francisco-vitor-nunes/" },
+    { label: "GitHub", url: "https://github.com/FranciscoVitorNunes" },
+    { label: "Email", url: "meuemail@gmail.com" },
   ];
 
   return (
@@ -16,7 +16,7 @@ export default function MainScreen({ navigation }: any) {
       <ProfileImage uri="https://placekitten.com/200/200" />
       <ProfileName name="Francisco Vitor" />
       <ProfileLinks links={links} />
-      <Button title="Ver Habilidades" onPress={() => navigation.navigate("Skills")} />
+      <Button title="Ver Habilidades" color="#0691a3ff" onPress={() => navigation.navigate("Skills")} />
     </View>
   );
 }
